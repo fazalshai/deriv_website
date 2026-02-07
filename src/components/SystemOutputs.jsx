@@ -25,7 +25,7 @@ const SystemOutputs = () => {
                         </div>
                         <div style={{ overflow: 'hidden', borderRadius: '0.5rem' }}>
                             <img
-                                src="/src/assets/output-1.png"
+                                src="/assets/output-1.png"
                                 alt="Real-Time Ingestion Logs"
                                 style={{ width: '100%', transition: 'transform 0.5s ease' }}
                                 className="group-hover:scale-105"
@@ -41,7 +41,7 @@ const SystemOutputs = () => {
                         </div>
                         <div style={{ overflow: 'hidden', borderRadius: '0.5rem' }}>
                             <img
-                                src="/src/assets/output-2.png"
+                                src="/assets/output-2.png"
                                 alt="Fuzzy Logic Scoring Matrix"
                                 style={{ width: '100%', transition: 'transform 0.5s ease' }}
                                 className="group-hover:scale-105"
@@ -57,7 +57,7 @@ const SystemOutputs = () => {
                         </div>
                         <div style={{ overflow: 'hidden', borderRadius: '0.5rem' }}>
                             <img
-                                src="/src/assets/output-3.png"
+                                src="/assets/output-3.png"
                                 alt="Automated Investigation Output"
                                 style={{ width: '100%', transition: 'transform 0.5s ease' }}
                                 className="group-hover:scale-105"
