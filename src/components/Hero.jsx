@@ -73,6 +73,9 @@ const Hero = () => {
                         <video
                             ref={videoRef}
                             controls
+                            autoPlay
+                            muted
+                            loop
                             playsInline
                             style={{
                                 position: 'absolute',
@@ -80,7 +83,8 @@ const Hero = () => {
                                 left: 0,
                                 width: '100%',
                                 height: '100%',
-                                objectFit: 'cover'
+                                objectFit: 'cover',
+                                zIndex: 20 // Ensure video is above background effects
                             }}
                             src={videoSrc}
                         >
