@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import Verification from './components/Verification';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -38,6 +39,9 @@ function App() {
       </div>
       <div className="reveal">
         <Verification />
+      </div>
+      <div className="reveal">
+        <Contact />
       </div>
       <Footer />
     </div>
