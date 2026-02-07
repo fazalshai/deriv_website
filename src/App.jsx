@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Hero from './components/Hero';
+import SystemOutputs from './components/SystemOutputs';
 import Problem from './components/Problem';
 import Solution from './components/Solution';
 import Verification from './components/Verification';
@@ -31,6 +32,9 @@ function App() {
   return (
     <div className="App">
       <Hero />
+      <div className="reveal">
+        <SystemOutputs />
+      </div>
       <div className="reveal">
         <Problem />
       </div>

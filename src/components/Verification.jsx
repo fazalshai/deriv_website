@@ -60,24 +60,6 @@ const Verification = () => {
                     </div>
                 </div>
 
-                {/* Visual Evidence Section */}
-                <div style={{ marginTop: '4rem' }}>
-                    <h3 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '2rem', textAlign: 'center', color: 'white' }}>Live System Outputs</h3>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
-                        <div style={{ background: '#1f2937', padding: '1rem', borderRadius: '0.5rem' }}>
-                            <h4 style={{ color: '#9ca3af', marginBottom: '0.5rem', fontWeight: 'bold' }}>Detection Output 1</h4>
-                            <img src="/src/assets/output-1.png" alt="Detection Output 1" style={{ width: '100%', borderRadius: '0.25rem', border: '1px solid #374151' }} />
-                        </div>
-                        <div style={{ background: '#1f2937', padding: '1rem', borderRadius: '0.5rem' }}>
-                            <h4 style={{ color: '#9ca3af', marginBottom: '0.5rem', fontWeight: 'bold' }}>Detection Output 2</h4>
-                            <img src="/src/assets/output-2.png" alt="Detection Output 2" style={{ width: '100%', borderRadius: '0.25rem', border: '1px solid #374151' }} />
-                        </div>
-                        <div style={{ background: '#1f2937', padding: '1rem', borderRadius: '0.5rem' }}>
-                            <h4 style={{ color: '#9ca3af', marginBottom: '0.5rem', fontWeight: 'bold' }}>Detection Output 3</h4>
-                            <img src="/src/assets/output-3.png" alt="Detection Output 3" style={{ width: '100%', borderRadius: '0.25rem', border: '1px solid #374151' }} />
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     );
