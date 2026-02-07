@@ -1,12 +1,21 @@
 import React from 'react';
 
 const Hero = () => {
+    const videoRef = React.useRef(null);
+
+    React.useEffect(() => {
+        if (videoRef.current) {
+            videoRef.current.playbackRate = 2.0; // Timelapse effect
+        }
+    }, []);
+
     return (
         <section className="min-h-screen flex flex-col justify-start items-center text-center relative overflow-hidden bg-black text-white pt-10">
             {/* Video Container - Primary Visual */}
-            <div className="w-full max-w-5xl mx-auto mb-12 relative z-10 p-4">
+            <div className="w-full max-w-5xl mx-auto mb-12 relative z-10 px-4 flex justify-center">
                 <div style={{
                     position: 'relative',
+                    width: '100%',
                     paddingBottom: '56.25%', /* 16:9 Aspect Ratio */
                     height: 0,
                     overflow: 'hidden',
@@ -15,9 +24,8 @@ const Hero = () => {
                     border: '1px solid #374151'
                 }}>
                     <video
-                        autoPlay
-                        loop
-                        muted
+                        ref={videoRef}
+                        controls
                         playsInline
                         style={{
                             position: 'absolute',
